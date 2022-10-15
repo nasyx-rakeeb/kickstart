@@ -20,6 +20,27 @@ beforeEach(async () => {
   campaign = await new web3.eth.Contract(JSON.parse(compiledCampaign.interface), campaignAddress)
 })
 
+describe(() => {
+  it("Deploys the contract and the campaign", () => {
+    assert.ok(factory.options.address)
+    assert.ok(campaign.options.address)
+  })
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
