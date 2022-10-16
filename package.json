@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "compile": "node ./ethereum/compile.js",
-    "deploy": "node ./ethereum/deploy.js"
+    "deploy": "node ./ethereum/deploy.js",
+    "dev": "next dev"
   },
   "author": "",
   "license": "ISC",
